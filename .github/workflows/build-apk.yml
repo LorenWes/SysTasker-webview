@@ -1,4 +1,4 @@
-﻿name: Build Android APK
+name: Build Android APK
 
 on:
   push:
@@ -34,6 +34,10 @@ jobs:
       - name: Sync Capacitor
         run: npx cap sync android
 
+      - name: Make gradlew executable
+        working-directory: android
+        run: chmod +x gradlew
+
       - name: Build Debug APK
         working-directory: android
         run: ./gradlew assembleDebug
@@ -45,7 +49,6 @@ jobs:
           path: android/app/build/outputs/apk/debug/*.apk
 
       - name: Build Release APK (if signed)
-        if: false  # Enable and add signing config for release builds
+        if: false
         working-directory: android
         run: ./gradlew assembleRelease
-
