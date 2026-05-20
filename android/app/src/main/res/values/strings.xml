@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">SysTasker</string>
+    <string name="title_activity_main">SysTasker</string>
+    <string name="package_name">com.systasker.app</string>
+    <string name="custom_url_scheme">com.systasker.app</string>
+</resources>
