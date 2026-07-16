@@ -6,8 +6,6 @@
         </trust-anchors>
     </base-config>
     <domain-config cleartextTrafficPermitted="true">
-        <domain includeSubdomains="true">m.task.wloren.cn</domain>
-        <domain includeSubdomains="true">100.64.0.200</domain>
         <domain includeSubdomains="true">10.0.0.0</domain>
         <domain includeSubdomains="true">192.168.0.0</domain>
         <domain includeSubdomains="true">172.16.0.0</domain>
