@@ -1,1 +1,1 @@
-{"appId": "com.systasker.app", "appName": "SysTasker", "webDir": "public", "server": {"url": "https://m.task.wloren.cn", "allowNavigation": ["https://*/*", "http://*/*"]}}
+{"appId": "com.systasker.app", "appName": "SysTasker", "webDir": "public", "server": {"url": "https://m2.task.wloren.cn", "allowNavigation": ["https://*/*", "http://*/*"]}}

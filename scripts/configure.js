@@ -47,7 +47,7 @@ var cfg = {
     appName: str(process.env.APP_NAME, 'SysTasker'),
     packageName: str(process.env.PACKAGE_NAME, 'com.systasker.app'),
     iconUrl: str(process.env.ICON_URL, ''),
-    defaultUrl: normalizeUrl(str(process.env.DEFAULT_URL, 'https://m.task.wloren.cn')),
+    defaultUrl: normalizeUrl(str(process.env.DEFAULT_URL, 'https://m2.task.wloren.cn')),
     versionName: str(process.env.VERSION_NAME, '1.0'),
     versionCode: str(process.env.VERSION_CODE, '1'),
     splashBg: str(process.env.SPLASH_BG, '#FFFFFF')

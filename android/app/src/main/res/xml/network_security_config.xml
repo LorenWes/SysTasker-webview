@@ -3,6 +3,8 @@
     <base-config cleartextTrafficPermitted="true">
         <trust-anchors>
             <certificates src="system" />
+            <!-- 演示/测试环境：信任用户安装的 CA（用于 s.task.wloren.cn 自签证书），正式发布可移除 -->
+            <certificates src="user" />
         </trust-anchors>
     </base-config>
     <domain-config cleartextTrafficPermitted="true">
