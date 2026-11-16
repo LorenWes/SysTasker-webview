@@ -1,17 +1,35 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>systasker-website</title>
-    <script type="module" crossorigin src="/assets/index-Bw6n9B-Y.js"></script>
-    <link rel="modulepreload" crossorigin href="/assets/rolldown-runtime-Cyuzqnbw.js">
-    <link rel="modulepreload" crossorigin href="/assets/ant-design-vue-BOs0SWzt.js">
-    <link rel="stylesheet" crossorigin href="/assets/ant-design-vue-B6VCboLO.css">
-    <link rel="stylesheet" crossorigin href="/assets/index-BCx4IRQ-.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="color-scheme" content="light dark" />
+    <title>WebView Shell</title>
+    <style>
+      html,
+      body {
+        margin: 0;
+        height: 100%;
+      }
+      body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #ffffff;
+        color: #333333;
+        font-family: -apple-system, "PingFang SC", "Microsoft YaHei", system-ui, sans-serif;
+        text-align: center;
+        padding: 24px;
+        box-sizing: border-box;
+      }
+    </style>
   </head>
   <body>
-    <div id="app"></div>
+    <!-- 空壳占位页：应用启动时加载 capacitor.config.json 中 server.url 指向的远程地址，
+         本页仅在未配置远程地址时作为兜底，正常运行时不会展示。 -->
+    <main>
+      <h2>WebView Shell</h2>
+      <p>未配置远程地址，请在 capacitor.config.json 的 server.url 指定默认访问链接。</p>
+    </main>
   </body>
 </html>

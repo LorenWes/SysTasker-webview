@@ -1,13 +1,18 @@
 {
   "name": "systasker-webview",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "private": true,
+  "description": "可配置的 Android WebView 空壳应用（Capacitor），包名 / 名称 / 图标 / 默认访问链接均由构建参数注入",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "configure": "node scripts/configure.js",
+    "sync": "cap sync android",
+    "build:android": "npm run configure && npm run sync && cd android && ./gradlew assembleDebug"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "capacitor",
+    "webview",
+    "android"
+  ],
   "license": "ISC",
   "dependencies": {
     "@capacitor/cli": "^8.3.4",

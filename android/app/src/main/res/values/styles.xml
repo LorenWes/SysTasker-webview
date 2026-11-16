@@ -18,8 +18,8 @@
         <item name="android:background">@drawable/splash</item>
     </style>
 
-    <!-- JD 红色主题 Dialog -->
-    <style name="SysTaskerDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+    <!-- 地址设置 Dialog -->
+    <style name="ShellDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
         <item name="colorAccent">#DA291C</item>
         <item name="android:textColorPrimary">#333333</item>
         <item name="android:windowBackground">@android:color/white</item>

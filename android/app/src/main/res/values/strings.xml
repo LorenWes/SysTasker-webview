@@ -1,11 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
 <resources>
+    <!-- 以下 4 项 + default_url 由 scripts/configure.js 按构建参数自动写入，勿手改 -->
     <string name="app_name">SysTasker</string>
     <string name="title_activity_main">SysTasker</string>
     <string name="package_name">com.systasker.app</string>
     <string name="custom_url_scheme">com.systasker.app</string>
+    <string name="default_url" translatable="false">https://m.task.wloren.cn</string>
+
     <string name="dialog_url_title">请输入服务器地址</string>
     <string name="dialog_url_hint">例如: https://m.task.wloren.cn</string>
     <string name="dialog_confirm">确认</string>
     <string name="dialog_cancel">取消</string>
+    <string name="press_again_to_exit">再按一次返回键退出应用</string>
 </resources>
